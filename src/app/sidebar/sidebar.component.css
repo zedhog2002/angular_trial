@@ -1,0 +1,28 @@
+/* src/app/sidebar/sidebar.component.css */
+nav {
+    padding: 10px;
+    transition: transform 0.3s ease;
+  }
+  
+  .hidden {
+    transform: translateX(-100%);
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  li {
+    margin: 10px 0;
+  }
+  
+  a {
+    text-decoration: none;
+    color: #333;
+  }
+  
+  a:hover {
+    color: #007bff;
+  }
+  

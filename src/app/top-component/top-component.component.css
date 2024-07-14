@@ -1,0 +1,28 @@
+.top-bar {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logo-container {
+    flex: 1;
+    max-width: 15%; /* Adjust maximum width for smaller image container */
+    padding: 10px; /* Optional: Add padding for spacing */
+  }
+  
+  .logo-container img {
+    width: 100%;
+    height: auto;
+    max-width: 100%; /* Ensure image doesn't exceed container width */
+  }
+  
+  .text-container {
+    flex: 2;
+    text-align: left; /* Adjust alignment as needed */
+  }
+  
+  .dashboard-text {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff;
+  }
+  

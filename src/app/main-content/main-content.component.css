@@ -1,0 +1,46 @@
+.search-bar {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 20px; /* Add some padding for better spacing */
+}
+
+input[type="text"] {
+  width: 80vw; /* Use viewport width for responsiveness */
+  max-width: 500px; /* Set a maximum width */
+  height: 40px;
+  padding: 10px;
+  font-size: 18px;
+  border: 1px solid #dfe1e5;
+  border-radius: 24px;
+  outline: none;
+  margin-bottom: 10px; /* Space between input and button */
+}
+
+button {
+  width: 40vw; /* Use viewport width for responsiveness */
+  max-width: 120px; /* Set a maximum width */
+  height: 40px;
+  font-size: 18px;
+  color: white;
+  background-color: #4285f4;
+  border: none;
+  border-radius: 24px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #357ae8;
+}
+
+@media (min-width: 1024px) {
+  input[type="text"] {
+    width: 500px; /* Fixed width for larger screens */
+  }
+
+  button {
+    width: 120px; /* Fixed width for larger screens */
+  }
+}
